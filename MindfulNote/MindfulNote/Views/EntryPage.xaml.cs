@@ -15,7 +15,7 @@ public partial class EntryPage : ContentPage
         LoadEntry(Path.Combine(appDataPath, randomFileName));
     }
 
-    //Save function
+    //Save method
     private async void SaveButton_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Models.Entry entry)
@@ -24,7 +24,7 @@ public partial class EntryPage : ContentPage
         await Shell.Current.GoToAsync("..");
     }
 
-    //Delete function
+    //Delete method
     private async void DeleteButton_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Models.Entry entry)
@@ -34,16 +34,13 @@ public partial class EntryPage : ContentPage
                 File.Delete(entry.Filename);
         }
 
-        //Naigate to Guestbook Page
         await Shell.Current.GoToAsync("..");
     }
 
-    //Load Entry function
+    //Load Entry method
     private void LoadEntry(string fileName)
     {
-        //Declaring an object of type Entry
         Models.Entry entryModel = new Models.Entry();
-        //Object Filename is fileName
         entryModel.Filename = fileName;
 
         //Check if fileName exists
@@ -55,7 +52,6 @@ public partial class EntryPage : ContentPage
             entryModel.Text = File.ReadAllText(fileName);
         }
 
-        //Binding context
         BindingContext = entryModel;
     }
 

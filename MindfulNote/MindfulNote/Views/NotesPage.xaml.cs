@@ -9,6 +9,7 @@ public partial class NotesPage : ContentPage
         BindingContext = new Models.Notes();
     }
 
+    //On appearing method
     protected override void OnAppearing()
     {
         ((Models.Notes)BindingContext).LoadEntries();
