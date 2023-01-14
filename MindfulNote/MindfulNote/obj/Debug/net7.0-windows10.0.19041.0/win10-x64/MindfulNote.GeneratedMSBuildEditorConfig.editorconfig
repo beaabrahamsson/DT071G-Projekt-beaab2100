@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MindfulNote
+build_property.ProjectDir = C:\Users\beaab\source\repos\DT071G-Projekt-beaab2100\MindfulNote\MindfulNote\
+
+[C:/Users/beaab/source/repos/DT071G-Projekt-beaab2100/MindfulNote/MindfulNote/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MindfulNote.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/beaab/source/repos/DT071G-Projekt-beaab2100/MindfulNote/MindfulNote/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MindfulNote.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/beaab/source/repos/DT071G-Projekt-beaab2100/MindfulNote/MindfulNote/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MindfulNote.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/beaab/source/repos/DT071G-Projekt-beaab2100/MindfulNote/MindfulNote/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MindfulNote.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/beaab/source/repos/DT071G-Projekt-beaab2100/MindfulNote/MindfulNote/Views/About.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MindfulNote.Views.About.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\About.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\About.xaml
+
+[C:/Users/beaab/source/repos/DT071G-Projekt-beaab2100/MindfulNote/MindfulNote/Views/EntryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MindfulNote.Views.EntryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EntryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EntryPage.xaml
+
+[C:/Users/beaab/source/repos/DT071G-Projekt-beaab2100/MindfulNote/MindfulNote/Views/NotesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MindfulNote.Views.NotesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NotesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NotesPage.xaml
